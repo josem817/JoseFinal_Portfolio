@@ -105,7 +105,14 @@ body {
   gap: 1.5em;
   align-items: flex-start;
 }
-
+.project img {
+  flex: 2;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 .project iframe {
   flex: 2;
   min-width: 320px;
